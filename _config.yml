@@ -23,7 +23,7 @@
 title: Album Covers
 email: k20107678@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
- A visual archive of musical albums' covers
+ A visual archive of musical album covers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Sblbl
