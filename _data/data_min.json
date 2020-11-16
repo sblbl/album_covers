@@ -1,0 +1,987 @@
+[
+    {
+        "album_name": "The Cookbook",
+        "artist_name": "Missy Elliott",
+        "genres": [
+            "dance pop",
+            "hip hop",
+            "hip pop",
+            "pop",
+            "pop rap",
+            "r&b",
+            "urban contemporary",
+            "virginia hip hop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273f1dfae21eaac0d24fb3dcf5a",
+        "col_1": [
+            215,
+            213,
+            206
+        ],
+        "col_2": [
+            161,
+            155,
+            144
+        ],
+        "col_3": [
+            89,
+            82,
+            74
+        ],
+        "labels": [
+            "grey",
+            "brown",
+            "pink"
+        ],
+        "date": "2005-07-04",
+        "album_uri": "6vV5UrXcfyQD1wu4Qo2I9K"
+    },
+    {
+        "album_name": "In The Zone",
+        "artist_name": "Britney Spears",
+        "genres": [
+            "dance pop",
+            "pop",
+            "pop rap",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4",
+        "col_1": [
+            40,
+            55,
+            90
+        ],
+        "col_2": [
+            172,
+            199,
+            211
+        ],
+        "col_3": [
+            69,
+            121,
+            160
+        ],
+        "labels": [
+            "blue"
+        ],
+        "date": "2003-11-13",
+        "album_uri": "0z7pVBGOD7HCIB7S8eLkLI"
+    },
+    {
+        "album_name": "Dangerously In Love (Alben f\u00fcr die Ewigkeit)",
+        "artist_name": "Beyonc\u00e9",
+        "genres": [
+            "dance pop",
+            "pop",
+            "r&b"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b27390592f54226a3eb8a99feea6",
+        "col_1": [
+            85,
+            70,
+            62
+        ],
+        "col_2": [
+            252,
+            252,
+            252
+        ],
+        "col_3": [
+            144,
+            148,
+            153
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "grey"
+        ],
+        "date": "2003-06-23",
+        "album_uri": "25hVFAxTlDvXbx2X2QkUkE"
+    },
+    {
+        "album_name": "Justified",
+        "artist_name": "Justin Timberlake",
+        "genres": [
+            "dance pop",
+            "pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273346a5742374ab4cf9ed32dee",
+        "col_1": [
+            23,
+            22,
+            22
+        ],
+        "col_2": [
+            172,
+            173,
+            185
+        ],
+        "col_3": [
+            84,
+            81,
+            90
+        ],
+        "labels": [
+            "black",
+            "grey"
+        ],
+        "date": "2002-11-04",
+        "album_uri": "6QPkyl04rXwTGlGlcYaRoW"
+    },
+    {
+        "album_name": "Hot Shot",
+        "artist_name": "Shaggy",
+        "genres": [
+            "dance pop",
+            "reggae fusion"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273d6ab2ff415cc6b28ab27ac5d",
+        "col_1": [
+            243,
+            239,
+            229
+        ],
+        "col_2": [
+            197,
+            141,
+            96
+        ],
+        "col_3": [
+            44,
+            42,
+            44
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "pink"
+        ],
+        "date": "2000",
+        "album_uri": "6NmFmPX56pcLBOFMhIiKvF"
+    },
+    {
+        "album_name": "Confessions",
+        "artist_name": "Usher",
+        "genres": [
+            "atl hip hop",
+            "dance pop",
+            "pop",
+            "r&b",
+            "south carolina hip hop",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273070ea85648c50d3de9b91966",
+        "col_1": [
+            161,
+            130,
+            106
+        ],
+        "col_2": [
+            79,
+            62,
+            47
+        ],
+        "col_3": [
+            9,
+            10,
+            10
+        ],
+        "labels": [
+            "black",
+            "brown"
+        ],
+        "date": "2004-03-08",
+        "album_uri": "0vO0b1AvY49CPQyVisJLj0"
+    },
+    {
+        "album_name": "PCD",
+        "artist_name": "The Pussycat Dolls",
+        "genres": [
+            "dance pop",
+            "girl group",
+            "pop",
+            "pop rap",
+            "post-teen pop",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2738cc44129c3b11adec74058d6",
+        "col_1": [
+            10,
+            10,
+            10
+        ],
+        "col_2": [
+            178,
+            148,
+            128
+        ],
+        "col_3": [
+            100,
+            74,
+            60
+        ],
+        "labels": [
+            "black",
+            "pink",
+            "brown"
+        ],
+        "date": "2005-01-01",
+        "album_uri": "5x8e8UcCeOgrOzSnDGuPye"
+    },
+    {
+        "album_name": "The Writing's On The Wall",
+        "artist_name": "Destiny's Child",
+        "genres": [
+            "dance pop",
+            "girl group",
+            "hip pop",
+            "pop",
+            "r&b",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2733718df75b57340c1947747e8",
+        "col_1": [
+            239,
+            239,
+            240
+        ],
+        "col_2": [
+            198,
+            193,
+            189
+        ],
+        "col_3": [
+            124,
+            113,
+            105
+        ],
+        "labels": [
+            "white",
+            "pink"
+        ],
+        "date": "1999-07-27",
+        "album_uri": "283NWqNsCA9GwVHrJk59CG"
+    },
+    {
+        "album_name": "Loose",
+        "artist_name": "Nelly Furtado",
+        "genres": [
+            "canadian latin",
+            "canadian pop",
+            "dance pop",
+            "pop",
+            "pop rap"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2",
+        "col_1": [
+            233,
+            231,
+            226
+        ],
+        "col_2": [
+            174,
+            63,
+            54
+        ],
+        "col_3": [
+            31,
+            13,
+            15
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "black",
+            "pink"
+        ],
+        "date": "2006-01-01",
+        "album_uri": "2yboV2QBcVGEhcRlYuPpDT"
+    },
+    {
+        "album_name": "Right Where You Want Me",
+        "artist_name": "Jesse McCartney",
+        "genres": [
+            "dance pop",
+            "neo mellow",
+            "pop",
+            "pop rock",
+            "post-teen pop",
+            "urban contemporary",
+            "viral pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2733692704d413126ee725780f3",
+        "col_1": [
+            158,
+            167,
+            165
+        ],
+        "col_2": [
+            29,
+            32,
+            24
+        ],
+        "col_3": [
+            94,
+            95,
+            62
+        ],
+        "labels": [
+            "black",
+            "grey",
+            "brown"
+        ],
+        "date": "2006-01-01",
+        "album_uri": "6022khQj4Fsvvse8f3A4lF"
+    },
+    {
+        "album_name": "Beautiful Soul",
+        "artist_name": "Jesse McCartney",
+        "genres": [
+            "dance pop",
+            "neo mellow",
+            "pop",
+            "pop rock",
+            "post-teen pop",
+            "urban contemporary",
+            "viral pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273c16d23f23fbb8145368515f9",
+        "col_1": [
+            24,
+            26,
+            27
+        ],
+        "col_2": [
+            138,
+            157,
+            108
+        ],
+        "col_3": [
+            243,
+            244,
+            244
+        ],
+        "labels": [
+            "white",
+            "black",
+            "pink"
+        ],
+        "date": "2004-01-01",
+        "album_uri": "2gidE8vgVOkYufANjuvj3S"
+    },
+    {
+        "album_name": "Departure - Recharged",
+        "artist_name": "Jesse McCartney",
+        "genres": [
+            "dance pop",
+            "neo mellow",
+            "pop",
+            "pop rock",
+            "post-teen pop",
+            "urban contemporary",
+            "viral pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b27340cf6d7e6353abac2fb22b7c",
+        "col_1": [
+            233,
+            227,
+            206
+        ],
+        "col_2": [
+            100,
+            109,
+            95
+        ],
+        "col_3": [
+            19,
+            25,
+            24
+        ],
+        "labels": [
+            "white",
+            "black",
+            "yellow",
+            "grey",
+            "pink"
+        ],
+        "date": "2008",
+        "album_uri": "2tDCfKFy2YW9N0IwNSRdOJ"
+    },
+    {
+        "album_name": "Cassie",
+        "artist_name": "Cassie",
+        "genres": [
+            "dance pop",
+            "hip pop",
+            "pop rap",
+            "r&b",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273f4c4ee507c2558262869f415",
+        "col_1": [
+            138,
+            101,
+            71
+        ],
+        "col_2": [
+            25,
+            20,
+            17
+        ],
+        "col_3": [
+            191,
+            153,
+            121
+        ],
+        "labels": [
+            "black",
+            "brown",
+            "pink"
+        ],
+        "date": "2006-08-07",
+        "album_uri": "0j1qzjaJmsF1FkcICf3hRu"
+    },
+    {
+        "album_name": "21",
+        "artist_name": "Omarion",
+        "genres": [
+            "dance pop",
+            "hip pop",
+            "pop",
+            "pop r&b",
+            "r&b",
+            "rap",
+            "southern hip hop",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273143d8c80ea2f575475f59abc",
+        "col_1": [
+            43,
+            87,
+            123
+        ],
+        "col_2": [
+            13,
+            13,
+            26
+        ],
+        "col_3": [
+            121,
+            184,
+            214
+        ],
+        "labels": [
+            "blue",
+            "black"
+        ],
+        "date": "2006-01-03",
+        "album_uri": "4cVVEOXyUaWo7vlDWIkKsI"
+    },
+    {
+        "album_name": "Let Go",
+        "artist_name": "Avril Lavigne",
+        "genres": [
+            "canadian pop",
+            "candy pop",
+            "dance pop",
+            "pop",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2739926529bf9c3b3b7c989dd00",
+        "col_1": [
+            22,
+            29,
+            36
+        ],
+        "col_2": [
+            75,
+            100,
+            112
+        ],
+        "col_3": [
+            156,
+            182,
+            189
+        ],
+        "labels": [
+            "black"
+        ],
+        "date": "2002-08-26",
+        "album_uri": "7h6XeTzy0SRXDrFJeA9gO7"
+    },
+    {
+        "album_name": "Chris Brown",
+        "artist_name": "Chris Brown",
+        "genres": [
+            "dance pop",
+            "pop",
+            "pop rap",
+            "r&b",
+            "rap"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273f9685817281327d5fecb244e",
+        "col_1": [
+            140,
+            119,
+            106
+        ],
+        "col_2": [
+            55,
+            50,
+            48
+        ],
+        "col_3": [
+            232,
+            230,
+            229
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "pink"
+        ],
+        "date": "2005",
+        "album_uri": "49gaz5rhWWgqCw61M9700v"
+    },
+    {
+        "album_name": "B'Day",
+        "artist_name": "Beyonc\u00e9",
+        "genres": [
+            "dance pop",
+            "pop",
+            "r&b"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273ee4bc987de687283f7935a99",
+        "col_1": [
+            164,
+            134,
+            99
+        ],
+        "col_2": [
+            34,
+            37,
+            21
+        ],
+        "col_3": [
+            188,
+            237,
+            225
+        ],
+        "labels": [
+            "black",
+            "cyan",
+            "brown",
+            "light_green"
+        ],
+        "date": "2006-08-29",
+        "album_uri": "3MJHoQUI828kmB6IpjejbW"
+    },
+    {
+        "album_name": "C'Mon C'Mon",
+        "artist_name": "Sheryl Crow",
+        "genres": [
+            "lilith",
+            "mellow gold",
+            "neo mellow",
+            "new wave pop",
+            "permanent wave",
+            "pop rock",
+            "rock"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2739ba3d667e7cb1fa7697791ff",
+        "col_1": [
+            235,
+            209,
+            98
+        ],
+        "col_2": [
+            254,
+            252,
+            246
+        ],
+        "col_3": [
+            202,
+            104,
+            56
+        ],
+        "labels": [
+            "white",
+            "orange",
+            "brown",
+            "yellow"
+        ],
+        "date": "2002-04-08",
+        "album_uri": "5NYcTXrRZHxNyRKVOd0vs1"
+    },
+    {
+        "album_name": "Elephunk",
+        "artist_name": "The Black Eyed Peas",
+        "genres": [
+            "dance pop",
+            "pop",
+            "pop rap"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b27356487e36f2e63eec78cac474",
+        "col_1": [
+            227,
+            230,
+            204
+        ],
+        "col_2": [
+            109,
+            142,
+            149
+        ],
+        "col_3": [
+            27,
+            46,
+            53
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "yellow",
+            "pink"
+        ],
+        "date": "2003-01-01",
+        "album_uri": "1bNyYpkDRovmErm4QeDrpJ"
+    },
+    {
+        "album_name": "I've Never Done Anything Like This",
+        "artist_name": "Bowling For Soup",
+        "genres": [
+            "comic",
+            "pop punk",
+            "texas pop punk"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2736bebaef95e5df37d0db5da97",
+        "col_1": [
+            204,
+            80,
+            73
+        ],
+        "col_2": [
+            239,
+            237,
+            230
+        ],
+        "col_3": [
+            71,
+            93,
+            110
+        ],
+        "labels": [
+            "white",
+            "pink"
+        ],
+        "date": "2011-04-26",
+        "album_uri": "3Q7xpHmP8k3HryE0LQdIk0"
+    },
+    {
+        "album_name": "Greetings From Imrie House",
+        "artist_name": "The Click Five",
+        "genres": [
+            "boy band",
+            "neo mellow",
+            "neon pop punk",
+            "pixie",
+            "pop punk",
+            "pop rock"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2732a6a46f1e8a127da4dd8af27",
+        "col_1": [
+            41,
+            58,
+            84
+        ],
+        "col_2": [
+            199,
+            209,
+            222
+        ],
+        "col_3": [
+            11,
+            15,
+            21
+        ],
+        "labels": [
+            "black",
+            "pink"
+        ],
+        "date": "2005-08-08",
+        "album_uri": "7gZilZGYr8M7UwEeYvdAKZ"
+    },
+    {
+        "album_name": "Jonas Brothers",
+        "artist_name": "Jonas Brothers",
+        "genres": [
+            "boy band",
+            "dance pop",
+            "pop",
+            "pop rock",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b27338f63eab7db4ee686a8008b6",
+        "col_1": [
+            229,
+            230,
+            230
+        ],
+        "col_2": [
+            23,
+            25,
+            26
+        ],
+        "col_3": [
+            129,
+            124,
+            114
+        ],
+        "labels": [
+            "white",
+            "grey",
+            "black",
+            "pink"
+        ],
+        "date": "2007",
+        "album_uri": "20RAjvZ9LX2FDuDU8RDuIl"
+    },
+    {
+        "album_name": "Lip Gloss",
+        "artist_name": "Lil Mama",
+        "genres": [
+            "hip pop",
+            "pop rap",
+            "trap queen"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b27358e66a73f08abb5f9fd48827",
+        "col_1": [
+            180,
+            54,
+            105
+        ],
+        "col_2": [
+            35,
+            22,
+            21
+        ],
+        "col_3": [
+            205,
+            156,
+            128
+        ],
+        "labels": [
+            "orange",
+            "black",
+            "pink",
+            "brown"
+        ],
+        "date": "2007-03-06",
+        "album_uri": "3vgVsm9GY3i39fZ7b1sqV5"
+    },
+    {
+        "album_name": "Everytime We Touch",
+        "artist_name": "Cascada",
+        "genres": [
+            "bubblegum dance",
+            "dance pop",
+            "eurodance",
+            "europop",
+            "german techno",
+            "melbourne bounce international",
+            "pop",
+            "pop rap"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273d8b4eadb146239bcd1dd3a3f",
+        "col_1": [
+            216,
+            169,
+            122
+        ],
+        "col_2": [
+            132,
+            131,
+            67
+        ],
+        "col_3": [
+            59,
+            53,
+            29
+        ],
+        "labels": [
+            "orange",
+            "brown",
+            "pink"
+        ],
+        "date": "2006",
+        "album_uri": "5DvuKZTzEKjm0oUuhP237C"
+    },
+    {
+        "album_name": "Jason Derulo",
+        "artist_name": "Jason Derulo",
+        "genres": [
+            "dance pop",
+            "pop",
+            "pop rap",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273c7b1b93cd2dcb8d528a30a1d",
+        "col_1": [
+            53,
+            65,
+            87
+        ],
+        "col_2": [
+            206,
+            216,
+            225
+        ],
+        "col_3": [
+            127,
+            153,
+            189
+        ],
+        "labels": [
+            "cyan",
+            "blue",
+            "pink"
+        ],
+        "date": "2010-02-24",
+        "album_uri": "0aVJmVAeEx78nAA1rAKYf7"
+    },
+    {
+        "album_name": "Year Of The Gentleman",
+        "artist_name": "Ne-Yo",
+        "genres": [
+            "dance pop",
+            "pop",
+            "pop rap",
+            "r&b",
+            "urban contemporary"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b2735694163d7c4ab48251e9b57c",
+        "col_1": [
+            238,
+            233,
+            223
+        ],
+        "col_2": [
+            170,
+            150,
+            119
+        ],
+        "col_3": [
+            62,
+            49,
+            34
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "pink"
+        ],
+        "date": "2008-01-01",
+        "album_uri": "6dTn9vJSxVTIGm4Cu5dH4x"
+    },
+    {
+        "album_name": "The Time Of Our Lives",
+        "artist_name": "Miley Cyrus",
+        "genres": [
+            "dance pop",
+            "pop",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273d6c3ad6a2a27471e1d5e8103",
+        "col_1": [
+            225,
+            181,
+            157
+        ],
+        "col_2": [
+            132,
+            71,
+            49
+        ],
+        "col_3": [
+            28,
+            19,
+            17
+        ],
+        "labels": [
+            "black",
+            "orange",
+            "brown",
+            "pink"
+        ],
+        "date": "2009-01-01",
+        "album_uri": "64aKkqxc3Ur2LYIKeS5osS"
+    },
+    {
+        "album_name": "Boys Like Girls",
+        "artist_name": "Boys Like Girls",
+        "genres": [
+            "neo mellow",
+            "neon pop punk",
+            "pop punk",
+            "pop rock",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273317ebb91078852577248ed98",
+        "col_1": [
+            120,
+            33,
+            31
+        ],
+        "col_2": [
+            225,
+            225,
+            225
+        ],
+        "col_3": [
+            163,
+            196,
+            164
+        ],
+        "labels": [
+            "white",
+            "brown",
+            "light_green",
+            "pink"
+        ],
+        "date": "2007-08-31",
+        "album_uri": "4WqgusSAgXkrjbXzqdBY68"
+    },
+    {
+        "album_name": "Replay",
+        "artist_name": "Iyaz",
+        "genres": [
+            "dance pop",
+            "pop rap",
+            "post-teen pop"
+        ],
+        "img": "https://i.scdn.co/image/ab67616d0000b273ae7012fce99c2b2345b54f30",
+        "col_1": [
+            41,
+            37,
+            28
+        ],
+        "col_2": [
+            204,
+            200,
+            178
+        ],
+        "col_3": [
+            107,
+            97,
+            86
+        ],
+        "labels": [
+            "light_green",
+            "brown",
+            "pink"
+        ],
+        "date": "2009-08-18",
+        "album_uri": "44hyrGuZKAvITbmrlhryf8"
+    },
+]

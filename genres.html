@@ -1,0 +1,36 @@
+---
+layout: default
+title: Genres
+---
+
+{% assign groups = site.data.data_min | group_by: "genres" %}
+{% assign unique_genres =  '' %}
+
+{% for group in groups %}
+ 	{% assign genres =  group.name | replace: "[", "" | replace: "]", "" | split: "," %}
+ 	
+	{% for genre in genres %}
+		{% assign genre = genre | replace: "\"", "" | append: "," %}
+		{% if unique_genres contains genre %}
+			{% else %}
+				{% assign unique_genres = unique_genres | append: genre %}
+		{% endif %}
+	<!-- <p>
+		{{ genre }}
+	</p> -->
+	{% endfor %}
+ 
+    <!-- {% for item in year.items %}
+        <li>{{ item.name }}</li>
+    {% endfor %} -->
+    
+ 
+{% endfor %}
+
+{% assign unique_genres = unique_genres | split: ',' %}
+
+{% for genre in unique_genres %}
+	<div>
+		{{genre}}
+ 	</div>
+ {% endfor %}

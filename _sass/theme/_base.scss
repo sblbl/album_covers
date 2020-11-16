@@ -1,0 +1,255 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+	font: $regular #{$def_font_size}/#{$def_line_height} $def_font_fam;
+	color: $def_color;
+	background-color: $bg;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: "kern" 1;
+		 -moz-font-feature-settings: "kern" 1;
+			 -o-font-feature-settings: "kern" 1;
+					font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+	margin-bottom: $spacing_unit / 2;
+}
+
+
+
+/**
+ * `main` element
+ */
+main {
+	display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+
+
+/**
+ * Images
+ */
+img {
+	max-width: 100%;
+	vertical-align: left;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+	display: block;
+}
+
+figcaption {
+	font-size: $small_font_size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+	margin-left: $spacing_unit;
+}
+
+li {
+	> ul,
+	> ol {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $bold;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+	color: $def_color;
+	text-decoration: underline;
+
+	&:visited {
+		color: $def_color, 15%;
+	}
+
+	&:hover {
+		color: $def_color, 15%;
+		text-decoration: none;
+	}
+
+	.social-media-list &:hover {
+		text-decoration: none;
+
+		.username {
+			text-decoration: none;
+		}
+	}
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+	color: $component_bg;
+	border-left: 4px solid $component_bg_light;
+	padding-left: $spacing_unit / 2;
+	@include relative-font-size(1.125);
+	letter-spacing: -1px;
+	font-style: italic;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+	@include relative-font-size(0.9375);
+	border: 1px solid $component_bg_light;
+	border-radius: 3px;
+	background-color: #eef;
+}
+
+code {
+	padding: 1px 5px;
+}
+
+pre {
+	padding: 8px 12px;
+	overflow-x: auto;
+
+	> code {
+		border: 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+	/* max-width: -webkit-calc(#{$content_max_width} - (#{$spacing_unit} * 2));
+	max-width:         calc(#{$content_max_width} - (#{$spacing_unit} * 2)); */
+	width: 75vw;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $spacing_unit;
+	padding-left: $spacing_unit;
+	@extend %clearfix;
+
+	@include media-query($on_laptop) {
+		max-width: -webkit-calc(#{$content_width} - (#{$spacing_unit}));
+		max-width:         calc(#{$content_width} - (#{$spacing_unit}));
+		padding-right: $spacing_unit / 2;
+		padding-left: $spacing_unit / 2;
+	}
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/**
+ * Icons
+ */
+
+.svg-icon {
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		fill: #{$contrast_color};
+		padding-right: 5px;
+		vertical-align: text-top;
+}
+
+.social-media-list {
+	li + li {
+		padding-top: 5px;
+	}
+}
+
+
+
+/**
+ * Tables
+ */
+table {
+	margin-bottom: $spacing_unit;
+	width: 100%;
+	text-align: $align;
+	color: lighten($def_color, 18%);
+	border-collapse: collapse;
+	border: 1px solid $component_bg_light;
+	tr {
+		&:nth-child(even) {
+			background-color: lighten($component_bg_light, 6%);
+		}
+	}
+	th, td {
+		padding: ($spacing_unit / 3) ($spacing_unit / 2);
+	}
+	th {
+		background-color: lighten($component_bg_light, 3%);
+		border: 1px solid darken($component_bg_light, 4%);
+		border-bottom-color: darken($component_bg_light, 12%);
+	}
+	td {
+		border: 1px solid $component_bg_light;
+	}
+}

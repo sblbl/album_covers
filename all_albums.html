@@ -1,0 +1,16 @@
+---
+layout: default
+title: All albums
+---
+
+<div class='album_wrapper'>
+	{% for album in site.data.data_min %}
+		
+		<a class='card_container' href='{{ album.url }}'>
+			<div class='card' style='box-shadow: -5px 5px rgb({{ album.col_1[0] }}, {{ album.col_1[1] }}, {{ album.col_1[2] }}); background-color: rgb({{ album.col_2[0] }}, {{ album.col_2[1] }}, {{ album.col_2[2] }})'>
+				<h4>{{ album.album_name }}</h4>
+				<img src='{{ album.img }}'/>
+			</div>
+		</a>
+	{% endfor %}
+</div>
