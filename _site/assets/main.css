@@ -165,7 +165,7 @@ a.site-title:visited { color: #fff; text-decoration: underline; }
 /** Collections */
 .album_wrapper { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; }
 
-.card_container { text-decoration: none; width: calc(25% - 32px); min-width: 160px; }
+.card_container { text-decoration: none; width: calc(25% - 32px); min-width: 220px; }
 
 .card { height: auto; color: #000; margin: 12px; padding: 16px; vertical-align: top; }
 

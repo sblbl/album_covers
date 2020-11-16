@@ -2,35 +2,35 @@
 layout: default
 title: Genres
 ---
-
+<!-- group the data based on 'genres' attribute -->
 {% assign groups = site.data.data_min | group_by: "genres" %}
+<!-- create an empty variable to store unique values -->
 {% assign unique_genres =  '' %}
 
+<!-- iterate over the dataset's genres -->
 {% for group in groups %}
- 	{% assign genres =  group.name | replace: "[", "" | replace: "]", "" | split: "," %}
+	
+	<!-- remove json characters and get an array containing the genres of a single album -->
+ 	{% assign genres =  group.name | replace: "[", "" | replace: "]", "" | replace: '"', "" | split: "," %}
  	
 	{% for genre in genres %}
-		{% assign genre = genre | replace: "\"", "" | append: "," %}
+		<!-- if a genre is not already in the unique list, add it -->
 		{% if unique_genres contains genre %}
 			{% else %}
-				{% assign unique_genres = unique_genres | append: genre %}
+				{% assign unique_genres = unique_genres | append: "," | append: genre %}
 		{% endif %}
-	<!-- <p>
-		{{ genre }}
-	</p> -->
 	{% endfor %}
- 
-    <!-- {% for item in year.items %}
-        <li>{{ item.name }}</li>
-    {% endfor %} -->
-    
- 
+
 {% endfor %}
 
+<!-- transform the unique genre variable onto an iterable -->
 {% assign unique_genres = unique_genres | split: ',' %}
 
+<!-- display each unique genre as a div -->
 {% for genre in unique_genres %}
 	<div>
 		{{genre}}
  	</div>
- {% endfor %}
+{% endfor %}
+<!-- TODO implement this in order to access to pages containing data tagged with a specific category (e.g. all 'rock' albums) -->
+<!-- HINT the div will be surrounded by an <a> pointing to the group -->
