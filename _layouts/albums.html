@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class='album' itemscope itemtype='http://schema.org/MusicRecording'>
+	<h1 class='album_title' itemprop='name'>{{ page.name }}</h2>
+	<h2 class='album_artist' itemprop='byArtist'>{{ page.artist }}</h2>
+	<p class='album_date' itemprop='Date'>{{page.date}}</p>
+
+	<img itemprop='image' src='{{ page.img }}'>
+
+	<iframe src='https://open.spotify.com/embed/album/{{ page.album_uri | strip}}' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>
+
+	<div class='album_genres_container'>
+		{% assign genres =  page.genres | split: "," %}
+
+		{% for genre in genres %}
+			<div class='album_genre' itemprop='genre'>{{ genre }}</div>
+		{% endfor %}
+	</div>
+
+	<div class='album_colours_container'>
+		
+	</div>
+
+	<div class='album_labels_container'>
+		
+	</div>
+
+</div>

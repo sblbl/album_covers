@@ -1,0 +1,19 @@
+---
+layout: page
+title: Genres
+permalink: /genres/
+---
+
+<div class='genre_wrapper'>
+
+	{% for genre in site.genres %}
+		
+		<a class='label_container' href='{{ genre.url }}'>
+			<div class='label'>
+				<h4>{{ genre.name }}</h4>
+			</div>
+		</a>
+
+	{% endfor %}
+	
+</div>

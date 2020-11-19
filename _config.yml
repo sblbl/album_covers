@@ -34,7 +34,10 @@ plugins:
   - jekyll-feed
 
 collections:
-  - all_albums
+  albums:
+    output: true
+
+  #paginate: 20
 
 # Exclude from processing.
 # The following items will not be processed, by default.
