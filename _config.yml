@@ -36,6 +36,8 @@ plugins:
 collections:
   albums:
     output: true
+  genres:
+    output: true
 
   #paginate: 20
 
