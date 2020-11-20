@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class='album' itemscope itemtype='http://schema.org/MusicRecording'>
-	<h1 class='album_title' itemprop='name'>{{ page.name }}</h2>
+	<h1 class='album_title' itemprop='name'>{{ page.name | replace: '`', '' }}</h2>
 	<h2 class='album_artist' itemprop='byArtist'>{{ page.artist }}</h2>
 	<p class='album_date' itemprop='Date'>{{page.date}}</p>
 

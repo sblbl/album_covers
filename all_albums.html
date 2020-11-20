@@ -8,7 +8,7 @@ permalink: /albums/
 	{% for album in site.albums %}
 		<a class='card_container' href='{{ album.url }}'>
 			<div class='card'>
-				<h4>{{ album.name }}</h4>
+				<h4>{{ album.name | replace: '`', '' }}</h4>
 				<!-- <img src='{{ album.img }}'/> -->
 			</div>
 		</a>
