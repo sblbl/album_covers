@@ -1,0 +1,4 @@
+---
+  layout: genres
+  name: white
+---
