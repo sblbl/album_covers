@@ -2,4 +2,26 @@
 layout: default
 ---
 
-hello
+<h1>{{page.name}}</h1>
+
+<div class='album_wrapper'>
+
+{% for album in site.albums %}
+
+	{% assign genres = album.genres | split: ',' %}
+
+	{% for genre in genres %}
+		{% if genre == page.name %}
+			<a class='card_container' href='{{ album.url }}'>
+				<div class='card'>
+					<h4>{{ album.name | replace: '`', '' }}</h4>
+					<!-- <img src='{{ album.img }}'/> -->
+				</div>
+			</a>
+			{% break %}
+		{% endif %}
+	{% endfor %}
+
+{% endfor %}
+
+</div>
