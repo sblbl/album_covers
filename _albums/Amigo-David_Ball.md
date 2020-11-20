@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amigo
+  artist: David Ball
   genres: country, country road, country rock
   colours: 133 106 84 , 42 42 45 , 209 166 126 
   labels: orange, brown, pink

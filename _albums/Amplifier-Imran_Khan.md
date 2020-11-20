@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amplifier
+  artist: Imran Khan
   genres: desi hip hop, desi pop, modern bollywood, pakistani hip hop, sufi
   colours: 47 94 121 , 18 7 8 , 182 158 144 
   labels: black, pink

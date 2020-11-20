@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amnesiac
+  artist: Radiohead
   genres: alternative rock, art rock, melancholia, oxford indie, permanent wave, rock
   colours: 200 57 48 , 0 0 0 , 209 79 67 
   labels: black

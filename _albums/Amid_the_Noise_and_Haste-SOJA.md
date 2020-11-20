@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amid the Noise and Haste
+  artist: SOJA
   genres: east coast reggae, reggae
   colours: 118 68 31 , 231 219 175 , 166 171 95 
   labels: brown, yellow, pink

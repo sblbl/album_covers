@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor Andino
+  artist: Los Askis
   genres: cumbia andina mexicana, cumbia sonidera, grupera, regional mexican
   colours: 94 115 154 , 187 156 147 , 92 49 43 
   labels: brown, pink

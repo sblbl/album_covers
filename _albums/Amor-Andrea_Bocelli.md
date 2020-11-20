@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor
+  artist: Andrea Bocelli
   genres: classical tenor, italian tenor, operatic pop
   colours: 27 37 38 , 194 197 199 , 100 106 108 
   labels: grey, brown, pink

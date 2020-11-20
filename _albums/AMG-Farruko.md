@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: AMG
+  artist: Farruko
   genres: latin, reggaeton, trap latino, tropical
   colours: 13 38 44 , 183 181 188 , 61 87 103 
   date: 2017-03-13

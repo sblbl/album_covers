@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor y Dolor (feat. Alexis & Fido)
+  artist: Carlos Baute
   genres: latin, latin pop, spanish pop, tropical
   colours: 67 50 48 , 239 193 69 , 176 170 168 
   labels: orange, brown, yellow, grey

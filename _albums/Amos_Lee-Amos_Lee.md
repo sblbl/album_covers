@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amos Lee
+  artist: Amos Lee
   genres: acoustic pop, indie folk, lilith, neo mellow, new americana, pop rock, stomp and holler
   colours: 239 238 238 , 131 128 129 , 17 15 16 
   labels: white, grey, black, pink

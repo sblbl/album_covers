@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Americana
+  artist: The Offspring
   genres: alternative metal, permanent wave, pop punk, punk, rock, skate punk, socal pop punk
   colours: 35 80 138 , 202 163 114 , 32 22 19 
   labels: blue, orange, black, brown, pink

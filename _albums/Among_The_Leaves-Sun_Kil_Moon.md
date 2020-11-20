@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Among The Leaves
+  artist: Sun Kil Moon
   genres: alternative rock, freak folk, indie rock, modern folk rock, slowcore, stomp and holler
   colours: 166 173 187 , 186 190 200 , 248 248 249 
   labels: white, pink

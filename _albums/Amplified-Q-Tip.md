@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amplified
+  artist: Q-Tip
   genres: alternative hip hop, east coast hip hop, hardcore hip hop, hip hop, neo soul, queens hip hop
   colours: 179 181 170 , 9 13 14 , 67 83 76 
   labels: black, grey

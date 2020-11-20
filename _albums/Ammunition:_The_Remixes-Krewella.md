@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Ammunition``:`` The Remixes
+  artist: Krewella
   genres: big room, dance pop, edm, electra, electro house
   colours: 49 39 38 , 149 84 78 , 196 231 208 
   labels: light_green, cyan, brown

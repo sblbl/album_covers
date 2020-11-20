@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amigos y Enemigos
+  artist: Noriel
   genres: latin, latin hip hop, reggaeton, reggaeton flow, trap latino, tropical
   colours: 73 44 38 , 23 11 9 , 189 187 167 
   labels: black, brown

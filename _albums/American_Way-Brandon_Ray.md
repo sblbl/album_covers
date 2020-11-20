@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: American Way
+  artist: Brandon Ray
   genres: country pop, heartland rock
   colours: 208 193 165 , 251 249 247 , 96 73 56 
   labels: white, brown, pink

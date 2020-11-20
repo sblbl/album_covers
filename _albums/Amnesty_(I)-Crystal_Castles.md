@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amnesty (I)
+  artist: Crystal Castles
   genres: alternative dance, bitpop, dance-punk, digital hardcore, indietronica, neo-synthpop, new rave, nintendocore, nu gaze
   colours: 200 198 196 , 101 96 91 , 26 26 25 
   labels: grey, black, pink, brown

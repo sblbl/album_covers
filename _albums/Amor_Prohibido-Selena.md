@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor Prohibido
+  artist: Selena
   genres: latin, latin pop, mexican pop, tejano
   colours: 228 216 194 , 45 47 42 , 151 125 100 
   labels: brown, yellow, pink

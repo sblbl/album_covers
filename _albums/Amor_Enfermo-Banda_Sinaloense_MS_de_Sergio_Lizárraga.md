@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor Enfermo
+  artist: Banda Sinaloense MS de Sergio Lizárraga
   genres: banda, norteno, regional mexican
   colours: 95 73 50 , 20 18 15 , 171 165 139 
   labels: black, brown

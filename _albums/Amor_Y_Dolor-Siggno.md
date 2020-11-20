@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amor Y Dolor
+  artist: Siggno
   genres: norteno, tejano, tex-mex
   colours: 4 3 4 , 78 72 69 , 163 154 146 
   labels: black, brown

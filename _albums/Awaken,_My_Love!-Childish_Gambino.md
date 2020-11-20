@@ -1,0 +1,11 @@
+---
+  layout: albums
+  name: "Awaken, My Love!"
+  artist: Childish Gambino
+  genres: atl hip hop, hip hop, pop rap, rap
+  colours: 111 188 228 , 56 101 164 , 18 28 47 
+  labels: blue, black
+  date: 2016-12-02
+  album_uri: 4xnq1L6P551Qcb9gBXNMK7
+  img: https://i.scdn.co/image/ab67616d0000b2730b97e56ffad7c6211aa848f8
+---

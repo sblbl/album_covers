@@ -1,6 +1,7 @@
 ---
   layout: albums
   name: Amy Locust Whatever
+  artist: Cyberbully Mom Club
   genres: indie garage rock, small room
   colours: 233 234 231 , 72 63 59 , 120 124 120 
   labels: white, grey, brown, pink
