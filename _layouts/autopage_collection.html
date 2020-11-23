@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+	{{ content | markdownify }}
+
+	<div class='post_list' itemscope itemtype='http://schema.org/MusicRecording'>
+		{% for post in paginator.posts %}
+			{% if post.name %}		
+			<a href='{{ post.url | relative_url }}' class='post_card_container'>
+				<div class='post_card' style="background-image: url('{{ post.img }}'); background-position: center; background-size: cover;">
+					<div class='post_title'>
+						<h2 class='post_link' itemprop='name'>{{ post.name | escape | replace: '`', '' }}
+						</h2>
+					</div>
+					<div class='post_meta' valign="bottom">
+						<span itemprop='byArtist'>By: {{ post.artist }}</span>
+						{% if post.genres %}
+						<br><span itemprop='genre'>Genres: {{ post.genres }}</span>
+						{% endif %}
+						{% if post.labels %}
+						<br><span>Labels: {{ post.labels }}</span>
+						{% endif %}
+					</div>
+				</div>
+			</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	
+
+	{% if paginator.total_pages > 1 %}
+	<ul class='pager'>
+			{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+			<li class='previous'>
+					&larr;
+			</li>
+			</a>
+			{% endif %}
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+				<li class='next'>
+						&rarr;
+				</li>
+			</a>
+			{% endif %}
+	</ul>
+	{% endif %}

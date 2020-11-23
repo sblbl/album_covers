@@ -5,9 +5,10 @@
 	background-color: $component_bg_dark;
 	// min-height: $spacing_unit;
 	color: $contrast_color;
-	padding: 8px;
-	// Positioning context for the mobile navigation icon
-	position: relative;
+	padding: 12px 36px;
+	width: 100vw;
+	position: fixed;
+	z-index: 100;
 }
 
 a.site-title {
@@ -109,9 +110,11 @@ a.site-title {
  * Site footer
  */
 .site-footer {
-	padding: $spacing_unit 0 0 0;
+	padding: 8px 24px;
 	background-color: $component_bg;
 	color: $contrast_color;
+	height: 80px;
+	bottom: 0;
 	@include relative-font-size(.50);
 
 }
@@ -141,7 +144,7 @@ a.site-title {
 
 .footer-col {
 	float: left;
-	margin-bottom: $spacing_unit / 2;
+	margin-bottom: 0;
 	padding-left: $spacing_unit / 2;
 }
 
@@ -286,40 +289,72 @@ a.site-title {
  * Collections
  */
 
- .album_wrapper {
- 	display: flex;
- 	flex-wrap: wrap;
- 	justify-content: center;
- 	align-items: flex-start;
- }
+// .post_wrapper {
+// 	margin-top: 48px;
+//  	display: flex;
+//  	flex-wrap: wrap;
+//  	justify-content: center;
+//  	align-items: flex-start;
+//  }
 
-.card_container {
-	text-decoration: none;
-	width: calc(25% - 32px);
-	min-width: 220px;
+.post_list {
+	width: 100%;
 }
 
-.card {
-	height: auto;
-	color: #000;
-	margin: 12px;
-	padding: 16px;
-	//display: inline-block;
+a.post_card_container .post_card {
+	padding: 0;
+	height: 30vh;
+	min-height: 200px;
+	margin-bottom: 12px;
+	position: relative;
 
-	vertical-align: top;
-
-	h4 {
-		background-color: #FFF;
-		text-decoration: underline;
+	.post_title {
+		width: 100%;
+		padding: 2px 8px;
+		background-color: rgba(255, 255, 255, .95);
 	}
 
-	img {
-		object-fit: contain;
-	}
- }
-
- .card:hover {
- 	h4 {
+	.post_meta {
+		width: 100%;
+		font-size: $small_font_size;
+		padding: 0px 8px;
+		bottom: 0;
+		vertical-align: text-bottom;
+		background-color: rgba(255, 255, 255, .95);
+		position: absolute;
 		text-decoration: none;
 	}
- }
+}
+
+ul.pager {
+	text-align: center; 
+	list-style: none; 
+	position: absolute;
+
+	li {
+		display: inline;
+		background-color: #000;
+		border: 1px solid black; 
+		padding: 24px; 
+		padding-top: 16px;
+		position: fixed;
+		width: 64px;
+		height: 64px;
+	}
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+		font-size: $big_font_size;
+	}
+
+	li.previous {
+		left: 0;
+		top: calc(100vh/2);
+	}
+
+	li.next {
+		right: 0;
+		top: calc(100vh/2);		
+	}
+}

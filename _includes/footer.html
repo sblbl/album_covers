@@ -1,8 +1,5 @@
-<footer class="site-footer h-card">
-	<data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-	<div class="wrapper">
-
+<footer class="site-footer">
+	<data class="u-url" href='{{ "/" | relative_url }}'></data>
 		<div class="footer-col-wrapper">
 			<div class="footer-col footer-col-1">
 				<ul class="contact-list">
@@ -14,7 +11,10 @@
 						{%- endif -%}
 						</li>
 						{%- if site.email -%}
-						<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+							{% assign emails = site.email | split: ',' %}
+							{% for email in emails %}
+								<li><a class="u-email" href="mailto:{{ email }}">{{ email }}</a></li>
+						 	{% endfor %}
 						{%- endif -%}
 				</ul>
 			</div>
@@ -27,7 +27,4 @@
 				<p>{{- site.description | escape -}}</p>
 			</div>
 		</div>
-
-	</div>
-
 </footer>

@@ -5,6 +5,8 @@
 
 $def_font_fam: 'Space Mono', -apple-system, BlinkMacSystemFont, Roboto, mono, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $def_font_size:   14pt !default;
+$big_font_size:   18pt !default;
+$small_font_size:   10pt !default;
 $regular: 300 !default;
 $bold: 500 !default;
 $small_font_size:  10pt !default;
@@ -44,6 +46,10 @@ $on_laptop:        80vw  !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $def_font_size * $ratio;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 // Import partials.

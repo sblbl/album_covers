@@ -21,17 +21,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Album Covers
-email: k20107678@kcl.ac.uk
+email: marta.fioravanti@kcl.ac.uk, john.bianchi@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
  A visual archive of musical album covers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Sblbl
+github_username:  Sblbl, JohnGithubKings
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+gems:
+  - jekyll-paginate-v2
+
+permalink: /:year/:month/:title.html
 
 collections:
   albums:
@@ -39,7 +43,50 @@ collections:
   genres:
     output: true
 
-  #paginate: 20
+#https://github.com/sverrirs/jekyll-paginate-v2/issues/107#issuecomment-503544755
+autopages:
+
+  # Site-wide kill switch, disable here and it doesn't run at all 
+  enabled: true
+
+  # Category pages, omit entire config element to disable
+  # categories: 
+  #   # Optional, the list of layouts that should be processed for every category found in the site
+  #   layouts: 
+  #     - 'autopage_category.html'
+  #   # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+  #   title: 'Posts in category :cat'
+  #   # Optional, the permalink for the  pagination page (:cat is replaced), 
+  #   # the pagination permalink path is then appended to this permalink structure
+  #   permalink: '/category/:cat'
+  #   slugify:
+  #     mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+  #     case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+
+  # Collection pages, omit to disable
+  collections:
+    layouts: 
+      - 'autopage_collection.html'
+    title: ':coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+    slugify:
+      mode: 'default'   # :coll is slugified.
+      case: false 
+
+  # Pagination Settings
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail: 
+    before: 2
+    after: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -49,14 +96,14 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
