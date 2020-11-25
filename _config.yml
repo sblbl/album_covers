@@ -35,8 +35,6 @@ plugins:
 gems:
   - jekyll-paginate-v2
 
-permalink: /:year/:month/:title.html
-
 collections:
   albums:
     output: true
@@ -48,7 +46,6 @@ autopages:
 
   # Site-wide kill switch, disable here and it doesn't run at all 
   enabled: true
-
   # Category pages, omit entire config element to disable
   # categories: 
   #   # Optional, the list of layouts that should be processed for every category found in the site
@@ -66,8 +63,9 @@ autopages:
   # Collection pages, omit to disable
   collections:
     layouts: 
-      - 'autopage_collection.html'
-    title: ':coll' # :coll is replaced by the collection name
+      - 'autopage_album.html'
+      - 'autopage_genres.html'
+    #title: ':coll' # :coll is replaced by the collection name
     permalink: '/collection/:coll'
     slugify:
       mode: 'default'   # :coll is slugified.
@@ -78,15 +76,15 @@ pagination:
   enabled: true
   per_page: 10
   permalink: '/:num/'
-  title: ':title | :num of :max'
+  #title: ':title | :num of :max'
   limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+  sort_field: 'name'
+  sort_reverse: false
  # extension: htm
  # indexpage: 'default'
-  trail: 
-    before: 2
-    after: 2
+  #trail: 
+    #before: 2
+    #after: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
